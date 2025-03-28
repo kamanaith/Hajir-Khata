@@ -16,7 +16,7 @@ const handleLogin =() => {
         alert("Login successful!");
         navigate("/HeroPage");
       } else {
-        alert("Invalid credentials");
+        alert("Invalid input");
       }
 };
 
